@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+.nav li{
+    display: inline-block;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul li a:hover{
+    text-decoration:overline;
+    color: brown;
+
+}
+.food{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.azari{
+    border: solid 5px;
+    border-radius: 7px;
+    width: 300px;
+    height: 300px;
+    margin-top: 3rem ;
+}
+.mazani{
+    border: solid 5px;
+    border-radius: 7px;
+    width: 300px;
+    height: 300px;
+    margin-top: 3rem ;
+}
+.bandari{
+    border: solid 5px;
+    border-radius: 7px;
+    width: 300px;
+    height: 300px;
+    margin-top: 3rem ;
+    
+}
+.one{
+    border: solid 5px;
+    border-radius: 7px;
+    width: 300px;
+    height: 300px;
+    margin-top: 3rem ;
+}
+.azari:hover{
+    color: blueviolet;
+}
+.mazani:hover{
+color: blueviolet;
+
+}
+.bandari:hover{
+    color: blueviolet;
+}
+.one:hover{
+    color: blueviolet;
+}
+
+.section{
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin-top: 70px;
+}
+
+.table{
+    border: solid 3px black;
+    border-radius: 4px;
+    width: 250px;
+    height: 300px;
+
+}
+td{
+    border: solid 3px black;
+    border-radius: 4px;
+    width: 250px;
+    padding-left: 4px;
+}
+.t {
+    width: 20px;
+    height: 30px;
+    border: solid black 3px;
+    border-radius: 4px;
+}
+@media (max-width: 420px){
+    .azari, .mazani, .bandari, .one{
+        width: 200px;
+        height: 200px;
+        flex-wrap: wrap;
+    }
+}
+@media (max-width:420px){
+    .food{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
