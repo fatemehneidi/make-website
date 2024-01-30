@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(251, 100%, 88%);
+}
+.navbar{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    /*background-color: aqua;*/
+    margin: 2rem;
+    /*padding: 2rem;*/
+    /*border-radius: 2rem;*/
+
+}
+ul li{
+    display: inline-block;
+    list-style: none;
+    margin-top: 2rem;
+}
+a{
+    text-decoration: none;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul li a:hover{
+    text-decoration:overline;
+    color: brown;
+
+}
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row;
+    /*background-color: aqua;*/
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+.description{
+    border: solid 5px;
+    border-radius: 7px;
+    width: 1000px;
+    height: 270px;
+    margin-top:  ;
+    margin-bottom: 30px;
+}
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    padding: 1rem;
+    display: inline-block;
+    margin: 0;
+}
+.para{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    padding: 1rem;
+    display: inline-block;
+    
+}
+.food{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row;
+    /*background-color: aqua;*/
+    margin: 2rem;
+    padding: 2rem;
+    /*border-radius: 2rem;*/
+    gap: 5px;
+}
+.azari{
+    border: solid 5px;
+    border-radius: 7px;
+    width: 200px;
+    height: 200px;
+    /*width: 20rem;
+    height: 20rem;*/
+    margin-top: 5px;
+}
+.mazani{
+    border: solid 5px;
+    border-radius: 7px;
+    width: 200px;
+    height: 200px;
+    /*width: 20rem;
+    height: 20rem;*/
+    margin-top: 5px;
+}
+.bandari{
+    border: solid 5px;
+    border-radius: 7px;
+    width: 200px;
+    height: 200px;
+    /*width: 20rem;
+    height: 20rem;*/
+    margin-top: 5px ;
+}
+.azari:hover{
+    color: blueviolet;
+}
+.mazani:hover{
+color: blueviolet;
+
+}
+.bandari:hover{
+    color: blueviolet;
+}
+
+
+/*@media (max-width:592px) {
+.azari, .mazani, .bandari {
+    width: 90px;
+    height: 100px;
+}
+}*/
+@media (max-width: 420px){
+    .azari, .mazani, .bandari{
+        width: 100px;
+        height: 100px;
+    }
+}
+/*@media (max-width:1140px){
+    .description{
+        width: 500px;
+        height: 1140px;
+    }
+}*/
+@media (max-width:420px){
+    .description{
+    height: 700px;
+    overflow: auto;
+    }
+}
